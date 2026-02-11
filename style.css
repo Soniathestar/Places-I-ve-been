@@ -1,0 +1,64 @@
+#headingOne{
+    border: 2px dashed black;
+    padding: 5%;
+    background-color: deeppink;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: skyblue;
+}
+
+.appearBig{
+    width: 300px;
+    height: 45px;
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+#formInputContainer{
+    display: flex;
+    min-height: 100vh;
+}
+
+#Filloutform{
+    padding: 30px;
+    border-right: 1px solid #ddd;
+    background: white;
+    flex: 1;
+    max-width: 420px;
+}
+
+.outputSection{
+    flex: 2;
+    padding: 20px;
+}
+
+@media (max-width: 768px){
+    #formInputContainer{
+        flex-direction: column;
+    }
+    #Filloutform,
+    .outputSection{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+#HeadingTwo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    position: relative;
+}
+
+#introductionmessage{
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
