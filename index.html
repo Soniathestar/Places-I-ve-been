@@ -7,9 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>🛫Places I've visited🛬</h1>
+    <h1 id="headingOne">🛫Places I've visited🛬</h1>
+    <div class="inputContainer">
+    
+<div id="formInputContainer">
+    <form id="Filloutform">
+        <input type="text" id="location" placeholder="My location" class="appearBig" required>
+        <input type="text" id="timeOftheYear" placeholder="Time of the year" class="appearBig" required>
+        <input type="text" id="landmarks" placeholder="Nearby landmarks" class="appearBig" required>
+        <textarea placeholder="Key memories of the place" id="memorablenotes" class="appearBig"></textarea>
+        <button type="submit" class="appearBig">Submit</button> 
+    </form>
 
-    
-    
+ <main class="outputSection" id="placedisplay">
+        
+        <div class="emptystate">
+            <h2 id="HeadingTwo">Glimpse of memories</h2>
+            <p id="introductionmessage">Add a new location to get started</p>
+        </div>
+</div>
+    </div>
+<link rel="script" href="script.js">
 </body>
 </html>
