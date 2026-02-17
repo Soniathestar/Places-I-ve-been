@@ -2,7 +2,7 @@
 This is a simple JavaScript web app that lets users save locations along with the time of year, landmarks and notes.
 
 # Live Link
-https://github.com/Soniathestar/Places-I-ve-been.git
+https://soniathestar.github.io/Places-I-ve-been/
 
 # Functioning
 Add a location
